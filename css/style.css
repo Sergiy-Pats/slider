@@ -81,7 +81,7 @@ html {
 
 .wrapper {
   height: 100%;
-  padding: 50px;
+  padding: 15px 50px;
 }
 
 .slick-list {
@@ -117,7 +117,7 @@ html {
 }
 
 .slider .slick-slide {
-  max-height: 200px;
+  max-height: 160px;
 }
 
 .slider img {
@@ -192,7 +192,7 @@ html {
   position: relative;
 }
 
-.sliderbig__item img {
+.sliderbig img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
@@ -200,12 +200,19 @@ html {
 }
 
 .sliderbig .slick-slider {
-  max-width: 100%;
+  max-width: 700px;
 }
 
 .sliderbig .slick-slide {
-  max-height: 700px;
+  max-height: 600px;
   background-color: rgba(109, 109, 109, 0.938);
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  .sliderbig .slick-slide {
+    max-height: 400px;
+  }
 }
 
 .wrapper a {

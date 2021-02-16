@@ -71,8 +71,8 @@ jQuery('document').ready(function () {
 	});
 
 	$('.link__add').click(function (event) {
-		$('.slider').slick('slickAdd', '<div class="slider__item"><img src="https://klike.net/uploads/posts/2019-05/1558767816_12.jpg" alt="ОЙ КАРТИКИ НЕТ"></div>');
-		$('.sliderbig').slick('slickAdd', '<div class="slider__item"><img src="https://klike.net/uploads/posts/2019-05/1558767816_12.jpg" alt="ОЙ КАРТИКИ НЕТ"></div>');
+		$('.slider').slick('slickAdd', '<div class="slider__item"><img   src="https://klike.net/uploads/posts/2019-05/1558767816_12.jpg" alt="ОЙ КАРТИКИ НЕТ"></div>');
+		$('.sliderbig').slick('slickAdd', '<div class="slider__item"><img  src="https://klike.net/uploads/posts/2019-05/1558767816_12.jpg" alt="ОЙ КАРТИКИ НЕТ"></div>');
 		return false;
 
 	})
