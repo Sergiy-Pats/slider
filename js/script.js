@@ -55,7 +55,8 @@ jQuery('document').ready(function () {
 		arrows: false,
 		slidesToShow: 1,
 		fade: true,
-		asNavFor: '.slider'
+		asNavFor: '.slider',
+		adaptiveHeight: false,
 	})
 
 
