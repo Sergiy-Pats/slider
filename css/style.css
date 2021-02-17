@@ -143,12 +143,12 @@ html {
 }
 
 .slider .slick-arrow.slick-next {
-  background: url(../img/ic_arrow_next.png) 0 0/100% no-repeat;
+  background: url(../img/ic_arrow_next.ico) 0 0/100%;
   right: 0;
 }
 
 .slider .slick-arrow.slick-prev {
-  background: url(../img/ic_arrow_back.png) 0 0/100% no-repeat;
+  background: url(../img/ic_arrow_back.ico) 0 0/100%;
   left: 0;
 }
 
