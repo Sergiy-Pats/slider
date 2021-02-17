@@ -30,8 +30,7 @@ jQuery('document').ready(function () {
 			{
 				breakpoint: 768,
 				settings: {
-					slidesToShow: 2,
-					centerMode: false,
+					slidesToShow: 1,
 				}
 			}
 		],
@@ -78,11 +77,24 @@ jQuery('document').ready(function () {
 	})
 
 
+
+
+
+
+
 	$('.link__remove').click(function (event,) {
-		$('.slider').slick('slickRemove', 0);
-		$('.sliderbig').slick('slickRemove', 0);
+
+		let curSl = $('.slider .slick-current').attr('data-slick-index');
+		let curSlB = parseFloat($('.sliderbig .slick-current').attr('data-slick-index'));
+		$('.slider').slick('slickRemove', (curSl));
+		$('.sliderbig').slick('slickRemove', (curSlB));
+
 		return false;
 	})
+
+
+
+
 
 	//$('.slider').slick("unslick");
 
